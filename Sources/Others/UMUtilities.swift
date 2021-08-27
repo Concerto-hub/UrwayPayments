@@ -75,7 +75,7 @@ internal struct Validator {
             return .mandatory(.trackId)
         }
         
-        if ((model.actionCode == " ") || model.actionCode.isEmpty || model.actionCode == nil)
+        if ((model.actionCode == "") || model.actionCode.isEmpty || model.actionCode == "")
         {
             return .mandatory(.action_code)
         }
@@ -211,7 +211,7 @@ internal struct Validator {
 //}
 //        5123451203580008
         address = try? String(contentsOf: URL(string: "https://api.ipify.org")!, encoding: .utf8)
-        print(address)
+        print(address as Any)
         return address ?? ""
     }
 }

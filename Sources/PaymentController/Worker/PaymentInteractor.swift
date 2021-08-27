@@ -43,7 +43,7 @@ class PaymentInteractor: IPaymentInteractor {
         let merchantKey : String = Common.Globle.merchantKey
         
         let trackid :String = model.trackIdCode
-        let merchantidentifier : String = model.merchantidentifier ?? ""
+        //let merchantidentifier : String = model.merchantidentifier ?? ""
         let amount: String = model.amount
         let customerEmail: String = model.email
         let address: String = model.address ?? ""
@@ -377,7 +377,7 @@ extension PaymentInteractor {
         
         if let strData = str.data(using: String.Encoding.utf8) {
             var digest = [UInt8](repeating: 0, count:Int(CC_SHA256_DIGEST_LENGTH))
-            strData.withUnsafeBytes {
+           _ = strData.withUnsafeBytes {
                 CC_SHA256($0.baseAddress, UInt32(strData.count), &digest)
             }
             

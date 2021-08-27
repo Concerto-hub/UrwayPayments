@@ -200,7 +200,7 @@ extension PaymentViewController {
         
         if keyPath == "estimatedProgress" {
             
-            print("check-->" ,self.webView.url)
+            print("check-->" ,self.webView.url ?? "")
             let thisnewURL = self.webView.url
             
             self.newURL =  thisnewURL?.absoluteString ?? ""
