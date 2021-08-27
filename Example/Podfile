@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UrwayPayments_Example' do
+  pod 'UrwayPayments', :path => '../'
+
+  target 'UrwayPayments_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
