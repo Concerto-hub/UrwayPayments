@@ -1,0 +1,16 @@
+PODS:
+  - UrwayPayments (0.1.0)
+
+DEPENDENCIES:
+  - UrwayPayments (from `../`)
+
+EXTERNAL SOURCES:
+  UrwayPayments:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UrwayPayments: 0f12d3191fef6a5973dacd863c33cc88f7b35f42
+
+PODFILE CHECKSUM: 6cb65adc3e39922c54e65fe74baeba3bcf05e5e2
+
+COCOAPODS: 1.10.1
