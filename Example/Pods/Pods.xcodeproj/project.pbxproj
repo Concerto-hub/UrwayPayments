@@ -17,6 +17,19 @@
 		9D9F6FCF608E904F16D491BBA8AC19A4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B670A8021F12B540AC820CEC2A504 /* ReplaceMe.swift */; };
 		C4263C7957241AAE5CE9965FBAF55F77 /* UrwayPayments-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA76D676DA7BDBA98C56AEDE106AE9C7 /* UrwayPayments-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9DF64B3E47C7779902C1F8F95B71CC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FAB3FBAF26D930FE009739BD /* Urway.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB3FB9C26D930FD009739BD /* Urway.h */; };
+		FAB3FBB026D930FE009739BD /* UMResponceErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FB9E26D930FD009739BD /* UMResponceErrorEnum.swift */; };
+		FAB3FBB126D930FE009739BD /* UMUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FB9F26D930FD009739BD /* UMUtilities.swift */; };
+		FAB3FBB226D930FE009739BD /* UWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBA026D930FD009739BD /* UWConfiguration.swift */; };
+		FAB3FBB326D930FE009739BD /* UWInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBA126D930FD009739BD /* UWInitializer.swift */; };
+		FAB3FBB426D930FE009739BD /* UWInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBA226D930FD009739BD /* UWInitialization.swift */; };
+		FAB3FBB526D930FE009739BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB3FBA526D930FE009739BD /* Main.storyboard */; };
+		FAB3FBB626D930FE009739BD /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBA726D930FE009739BD /* PaymentPresenter.swift */; };
+		FAB3FBB726D930FE009739BD /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBA926D930FE009739BD /* PaymentViewController.swift */; };
+		FAB3FBB826D930FE009739BD /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBAA26D930FE009739BD /* PaymentConfiguration.swift */; };
+		FAB3FBB926D930FE009739BD /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBAC26D930FE009739BD /* PaymentManager.swift */; };
+		FAB3FBBA26D930FE009739BD /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBAD26D930FE009739BD /* PaymentRouter.swift */; };
+		FAB3FBBB26D930FE009739BD /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3FBAE26D930FE009739BD /* PaymentInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,15 +54,15 @@
 		0931AD2F636A9E3735F272A7568C6E41 /* UrwayPayments-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UrwayPayments-dummy.m"; sourceTree = "<group>"; };
 		0956C0E71B892240DD57ACBB9F8F44F8 /* Pods-UrwayPayments_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UrwayPayments_Example-dummy.m"; sourceTree = "<group>"; };
 		0E0164368238DF75DBEFF2A62E2CB911 /* UrwayPayments-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UrwayPayments-Info.plist"; sourceTree = "<group>"; };
-		1C077F2F1E6988ED75CD1CA7F519E1BA /* UrwayPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UrwayPayments.framework; path = UrwayPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C077F2F1E6988ED75CD1CA7F519E1BA /* UrwayPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UrwayPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C37F7E054510388CA36CD4646B58B43 /* Pods-UrwayPayments_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UrwayPayments_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2BC3279407E90805CB925839FC2AB0AE /* Pods-UrwayPayments_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UrwayPayments_Example.modulemap"; sourceTree = "<group>"; };
 		3231C3242932B0B5B4CA6657778A2D76 /* Pods-UrwayPayments_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UrwayPayments_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3EE64AD986F331D2506E9413E4D0F7C2 /* Pods-UrwayPayments_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UrwayPayments_Example-frameworks.sh"; sourceTree = "<group>"; };
-		57C16C954E77CDCE85EA6275471442C5 /* UrwayPayments.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UrwayPayments.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57C16C954E77CDCE85EA6275471442C5 /* UrwayPayments.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UrwayPayments.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		683B670A8021F12B540AC820CEC2A504 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UrwayPayments/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6ADC59B14E6903D64B3447FE5D8BFDF8 /* Pods-UrwayPayments_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UrwayPayments_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6FF8A61B4956A8C38AFFD4CFE5A21898 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6FF8A61B4956A8C38AFFD4CFE5A21898 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		714CC35D2ADA79570A9AF22CDB695202 /* UrwayPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UrwayPayments.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7BF73DBD5C6E2109914658AB07B1AE9B /* UrwayPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UrwayPayments.debug.xcconfig; sourceTree = "<group>"; };
@@ -57,18 +70,31 @@
 		92D23FC099FDD734193397AE3186026A /* Pods-UrwayPayments_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UrwayPayments_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9945A6DB6351428BF9235B14E45BA597 /* UrwayPayments.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UrwayPayments.modulemap; sourceTree = "<group>"; };
 		9C8AE8BA94B1A9FDEF7C4EEF87360247 /* Pods-UrwayPayments_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UrwayPayments_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A50DE7E68D0E2F51794BD8AA8561E5D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A50DE7E68D0E2F51794BD8AA8561E5D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A7729D36343BBB3193C00AB9600FF531 /* Pods-UrwayPayments_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UrwayPayments_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC39EA67E94F3DCC72A41F2CC193C12A /* Pods-UrwayPayments_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UrwayPayments_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB5548940B2A6B1026933109EA103BF9 /* Pods_UrwayPayments_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UrwayPayments_Tests.framework; path = "Pods-UrwayPayments_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7201DAFE467DAB8EC25375259EC8249 /* Pods_UrwayPayments_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UrwayPayments_Example.framework; path = "Pods-UrwayPayments_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5548940B2A6B1026933109EA103BF9 /* Pods_UrwayPayments_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrwayPayments_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7201DAFE467DAB8EC25375259EC8249 /* Pods_UrwayPayments_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrwayPayments_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F4B27E4991E05ECB527345641B635F /* Pods-UrwayPayments_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UrwayPayments_Tests-dummy.m"; sourceTree = "<group>"; };
 		C9FB689262D80CF4751789CFC8B58CE1 /* Pods-UrwayPayments_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UrwayPayments_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DA76D676DA7BDBA98C56AEDE106AE9C7 /* UrwayPayments-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UrwayPayments-umbrella.h"; sourceTree = "<group>"; };
 		DD8365E086DD351F00C381635FCC0944 /* UrwayPayments-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UrwayPayments-prefix.pch"; sourceTree = "<group>"; };
 		EAC81DEB44E5D58F6BEFFDA9155A5F1A /* Pods-UrwayPayments_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UrwayPayments_Example-Info.plist"; sourceTree = "<group>"; };
 		F1A51F9D543B825A7FD4CD385E1FD04E /* Pods-UrwayPayments_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UrwayPayments_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAB3FB9C26D930FD009739BD /* Urway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Urway.h; sourceTree = "<group>"; };
+		FAB3FB9E26D930FD009739BD /* UMResponceErrorEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UMResponceErrorEnum.swift; sourceTree = "<group>"; };
+		FAB3FB9F26D930FD009739BD /* UMUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UMUtilities.swift; sourceTree = "<group>"; };
+		FAB3FBA026D930FD009739BD /* UWConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWConfiguration.swift; sourceTree = "<group>"; };
+		FAB3FBA126D930FD009739BD /* UWInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWInitializer.swift; sourceTree = "<group>"; };
+		FAB3FBA226D930FD009739BD /* UWInitialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWInitialization.swift; sourceTree = "<group>"; };
+		FAB3FBA526D930FE009739BD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FAB3FBA726D930FE009739BD /* PaymentPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
+		FAB3FBA926D930FE009739BD /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		FAB3FBAA26D930FE009739BD /* PaymentConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentConfiguration.swift; sourceTree = "<group>"; };
+		FAB3FBAC26D930FE009739BD /* PaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		FAB3FBAD26D930FE009739BD /* PaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentRouter.swift; sourceTree = "<group>"; };
+		FAB3FBAE26D930FE009739BD /* PaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
 		FCCE9016C0482D1AF35589DDF89BC042 /* Pods-UrwayPayments_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UrwayPayments_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,6 +232,7 @@
 		F083B480745BE61EF763CD4278A1F1D3 /* UrwayPayments */ = {
 			isa = PBXGroup;
 			children = (
+				FAB3FB9B26D930B0009739BD /* Sources */,
 				683B670A8021F12B540AC820CEC2A504 /* ReplaceMe.swift */,
 				37DB0127C2F7825D3F7441DA54E3C7C4 /* Pod */,
 				D8ABF108562D653F4CFBAC50E17017D5 /* Support Files */,
@@ -223,6 +250,74 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FAB3FB9B26D930B0009739BD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3FB9D26D930FD009739BD /* Others */,
+				FAB3FBA326D930FE009739BD /* PaymentController */,
+				FAB3FB9C26D930FD009739BD /* Urway.h */,
+				FAB3FBA226D930FD009739BD /* UWInitialization.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAB3FB9D26D930FD009739BD /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3FB9E26D930FD009739BD /* UMResponceErrorEnum.swift */,
+				FAB3FB9F26D930FD009739BD /* UMUtilities.swift */,
+				FAB3FBA026D930FD009739BD /* UWConfiguration.swift */,
+				FAB3FBA126D930FD009739BD /* UWInitializer.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FAB3FBA326D930FE009739BD /* PaymentController */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3FBA426D930FE009739BD /* StoryBoard */,
+				FAB3FBA626D930FE009739BD /* Presenter */,
+				FAB3FBA826D930FE009739BD /* Controller */,
+				FAB3FBAA26D930FE009739BD /* PaymentConfiguration.swift */,
+				FAB3FBAB26D930FE009739BD /* Worker */,
+			);
+			path = PaymentController;
+			sourceTree = "<group>";
+		};
+		FAB3FBA426D930FE009739BD /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3FBA526D930FE009739BD /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		FAB3FBA626D930FE009739BD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3FBA726D930FE009739BD /* PaymentPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FAB3FBA826D930FE009739BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3FBA926D930FE009739BD /* PaymentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAB3FBAB26D930FE009739BD /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3FBAC26D930FE009739BD /* PaymentManager.swift */,
+				FAB3FBAD26D930FE009739BD /* PaymentRouter.swift */,
+				FAB3FBAE26D930FE009739BD /* PaymentInteractor.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -231,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4263C7957241AAE5CE9965FBAF55F77 /* UrwayPayments-umbrella.h in Headers */,
+				FAB3FBAF26D930FE009739BD /* Urway.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +453,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB3FBB526D930FE009739BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +472,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB3FBB326D930FE009739BD /* UWInitializer.swift in Sources */,
+				FAB3FBBA26D930FE009739BD /* PaymentRouter.swift in Sources */,
 				9D9F6FCF608E904F16D491BBA8AC19A4 /* ReplaceMe.swift in Sources */,
+				FAB3FBB926D930FE009739BD /* PaymentManager.swift in Sources */,
 				5513B1729E1C8CC78001FEC24CCF2590 /* UrwayPayments-dummy.m in Sources */,
+				FAB3FBB126D930FE009739BD /* UMUtilities.swift in Sources */,
+				FAB3FBB226D930FE009739BD /* UWConfiguration.swift in Sources */,
+				FAB3FBB026D930FE009739BD /* UMResponceErrorEnum.swift in Sources */,
+				FAB3FBB426D930FE009739BD /* UWInitialization.swift in Sources */,
+				FAB3FBB826D930FE009739BD /* PaymentConfiguration.swift in Sources */,
+				FAB3FBB726D930FE009739BD /* PaymentViewController.swift in Sources */,
+				FAB3FBBB26D930FE009739BD /* PaymentInteractor.swift in Sources */,
+				FAB3FBB626D930FE009739BD /* PaymentPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,8 +826,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

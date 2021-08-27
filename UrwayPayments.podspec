@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'UrwayPayments'
   s.version          = '0.1.0'
   s.summary          = 'URWAY is a robust platform'
+  s.swift_version    = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'UrwayPayments/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
   
   # s.resource_bundles = {
   #   'UrwayPayments' => ['UrwayPayments/Assets/*.png']
