@@ -75,9 +75,8 @@ public class UWInitializer {
          state: String? = nil,
          transid: String? = nil,
          merchantidentifier: String? = nil,
-         tokenizationType: String){
-//         ,
-//         holderName: String? = nil) {
+         tokenizationType: String? = nil,
+         holderName: String? = nil) {
         
         
         self.amount = amount
@@ -108,7 +107,7 @@ public class UWInitializer {
         self.tokenizationType = tokenizationType
         self.transid=transid
         self.merchantidentifier = merchantidentifier
-        //self.holderName = holderName
+        self.holderName = holderName
     }
     
     public static func generatePaymentKey(payment: PKPayment) -> NSString {

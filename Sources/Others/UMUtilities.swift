@@ -22,7 +22,10 @@ public struct ZDLUtility {
 }
 
 func getController(_ storyBoardName: String, _ identifier: String) -> UIViewController {
-    return UIStoryboard(name: storyBoardName, bundle: ZDLUtility.getBundle()).instantiateViewController(withIdentifier: identifier)
+    
+    let bundle = Bundle(for: PaymentViewController.self)
+    
+    return UIStoryboard(name: storyBoardName, bundle: bundle).instantiateViewController(withIdentifier: identifier)
 }
 
 internal class Common: NSObject {
