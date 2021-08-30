@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UrwayPayments'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'URWAY is a robust platform'
   s.swift_version    = '4.0'
 
@@ -31,11 +31,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Sources/**/*.swift'
+  s.source_files = 'Sources/**/*.{swift,h,m}'
   
-  # s.resource_bundles = {
-  #   'UrwayPayments' => ['UrwayPayments/Assets/*.png']
-  # }
+  s.resources = "Sources/**/*.storyboard"
+  
+#  s.resource_bundles = {
+#     'UrwayPayments' => ['UrwayPayments/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
