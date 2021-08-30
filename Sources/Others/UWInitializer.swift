@@ -51,7 +51,12 @@ public class UWInitializer {
     
     var merchantidentifier: String?
     var tokenizationType: String?
-    var holderName: String? = ""
+    var cardNumber: String?
+    var cvv: String?
+    var expMonth: String?
+    var expYear: String?
+    var holderName: String?
+  //  var transId: String = ""
     
     
     public init(amount: String ,
@@ -75,9 +80,14 @@ public class UWInitializer {
          state: String? = nil,
          transid: String? = nil,
          merchantidentifier: String? = nil,
-         tokenizationType: String? = nil,
-         holderName: String? = nil) {
-        
+         tokenizationType: String,
+         cardNumber: String? = nil,
+         cvv: String? = nil,
+         expMonth: String? = nil,
+         expYear: String? = nil,
+         holderName: String? = nil
+         
+    ){
         
         self.amount = amount
         self.email = email
@@ -85,7 +95,6 @@ public class UWInitializer {
         self.currency = currency
         self.country = country
         self.actionCode = actionCode
-        
         self.trackIdCode = trackIdCode
         
         self.udf1 = udf1
@@ -93,11 +102,9 @@ public class UWInitializer {
         self.udf3 = udf3
         self.udf4 = udf4
         self.udf5 = udf5
-        
         self.state = state
         self.city = city
         self.address = address
-        
         self.createTokenIsEnabled = createTokenIsEnabled
         self.merchantIP = merchantIP
         self.cardToken = cardToken
@@ -107,9 +114,13 @@ public class UWInitializer {
         self.tokenizationType = tokenizationType
         self.transid=transid
         self.merchantidentifier = merchantidentifier
+        self.cardNumber = cardNumber
+        self.cvv = cvv
+        self.expMonth = expMonth
+        self.expYear = expYear
         self.holderName = holderName
     }
-    
+
     public static func generatePaymentKey(payment: PKPayment) -> NSString {
         
         let data12 = payment.token.paymentData
